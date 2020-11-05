@@ -11,17 +11,17 @@
 </form>
 
 <br>
-
-{{#if err}}
-    <h2>{{err}}</h2>
-{{/if}}
-{{#if listExists}}
-    <h2>Today's weather in {{name}}:</h2>
-    <ul>
-        {{#each data}}
-            <li>{{@key}} : {{this}}</li>
-        {{/each}}
-    </ul>
-{{/if}}
-
+<div class="list-data">
+    {{#if err}}
+        <h2>{{err}}</h2>
+    {{/if}}
+    {{#if listExists}}
+        <h2>Today's weather in {{name}}:</h2>
+        <ul>
+            {{#each data}}
+                <li>{{@key}} : {{this}}</li>
+            {{/each}}
+        </ul>
+    {{/if}}
+</div>
 {{log data}}

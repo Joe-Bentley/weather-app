@@ -29,7 +29,8 @@ app.get('/', async(req,res) => {
     let feels_like = data.main.feels_like;
     res.render('index', {
         name, 
-        data: {description, temp, feels_like}
+        temp,
+        data: {temp, feels_like}
     });
 });
 
