@@ -1,7 +1,15 @@
-body {
-    background-color: aqua;
+nav {
+  background-color: lightgray;
+  padding: 10px 15px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
 }
-
-h1 {
-    color: brown;
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li {
+  padding-left: 20px;
+  list-style: none;
 }
