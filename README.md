@@ -26,7 +26,7 @@
 
 * Weather API from https://home.openweathermap.org/myservices 
 
-http://api.openweathermap.org/data/2.5/weather?q=Mold,gb&units=uk&appid=cceb744100096d1c03e2112ab934759b
+http://api.openweathermap.org/data/2.5/weather?q=Mold,gb&units=uk&appid=
 
 * Installing node-fetch
 
