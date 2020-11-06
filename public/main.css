@@ -2,10 +2,15 @@
 
 body {
   font-family: 'Roboto';
+  background-image: url("../images/cloud.jpg");
+  background-size: 100%;
 }
 
+h2 {
+  color: rgb(73, 73, 73);
+}
 .layout {
-  background-color: white;
+  background-color: lightgray;
   position: absolute;
   top: 35%;
   left: 35%;
@@ -14,15 +19,31 @@ body {
   width: 30%;
   flex-wrap: wrap;
   box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
 }
-
+.icons {
+  width: 90%;
+  color: grey;
+}
 .info {
-    display: flex;
-    align-items: center;
+    width: 100%;
 }
 
-#current-weather {
-  text-align: center;
+.current-weather {
+  position: absolute;
+  top: 8%;
+  left: 15%;
+  color: rgb(73, 73, 73);
+
+}
+
+.temp {
+  position: absolute;
+  top: 23%;
+  left: 33%;
+  font-size: 300%;
+  color: rgb(73, 73, 73);
+  
 }
 
 nav {
@@ -80,4 +101,6 @@ nav ul li {
   color: white;
   font-size: 90px;
   font-weight: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
