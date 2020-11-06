@@ -23,7 +23,8 @@ router.post('/', async(req, res) => {
     let feels_like = data.main.feels_like;
     res.render('weather', {
         name,
-        data: {description, temp, feels_like},
+        temp,
+        data: {"Description" : description, "Feels like" : feels_like},
         listExists: true
     });
 });

@@ -38,5 +38,6 @@ http://api.openweathermap.org/data/2.5/weather?q=Mold,gb&units=uk&appid=
 * Added Router Folder
 -Created 3 new files / indexRouter.js / errRouter.js / weatherRouter.js / Routers file used to help break down code and group sections together
 
-
+* Added images folder
+-Created images folder to hold background image and favicon
 
