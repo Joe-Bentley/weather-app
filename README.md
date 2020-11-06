@@ -35,3 +35,8 @@ http://api.openweathermap.org/data/2.5/weather?q=Mold,gb&units=uk&appid=
 * Installing dotenv
 -npm i dotenv (Loads environment variables from a .env file into process.env)
 
+* Added Router Folder
+-Created 3 new files / indexRouter.js / errRouter.js / weatherRouter.js / Routers file used to help break down code and group sections together
+
+
+
