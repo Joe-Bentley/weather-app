@@ -160,11 +160,12 @@ input {
 
 .temp2 {
   position: absolute;
-  top: 23%;
+  top: -30%;
   left: 8%;
   font-size: 400%;
   color: rgb(73, 73, 73);
   padding-top: 15px;
+  font-weight: bolder;
 }
 
 .info-data {
